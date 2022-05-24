@@ -38,6 +38,6 @@ export const obj = [
         Icon: CurlyBraces,
         title: "Others",
         arrow: Down,
-        skills: ["Figma", "Github", "Data Structure", "Recharts", "So on"]
+        skills: ["Figma", "Github", "Data Structure", "Recharts", "JWT", "So on"]
     },
 ]
