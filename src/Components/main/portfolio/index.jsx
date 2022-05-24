@@ -105,7 +105,9 @@ const Portfolio = () => {
                                 <Send className=" button__icon" style={{ transform: "rotate(45deg)" }}></Send>
                             </a>
                         </div>
-                        <img src='./photo4.png' alt='alt' className='project__img' />
+                        <div className='project__img_end'>
+                            <img src='./photo1.png' alt='alt' className='project__img' />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -30,7 +30,7 @@ const Contact = () => {
 
                         <div>
                             <h3 className='contact__title'>Call </h3>
-                            <p className='contact__subtitle'>+82 10 2496 5221</p>
+                            <p className='contact__subtitle'>+82 10 2178 4525</p>
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
 
                         <div>
                             <h3 className='contact__title'>Email </h3>
-                            <p className='contact__subtitle'>abdulkhamidovakbarjon2000@gmail.com</p>
+                            <p className='contact__subtitle'>bappy.ac.bd@gmail.com</p>
                         </div>
                     </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
 
                         <div>
                             <h3 className='contact__title'>Location </h3>
-                            <p className='contact__subtitle'>성남시 수정구 시민로 145번길 11-2</p>
+                            <p className='contact__subtitle'>경기도 성남시 수정구 시민로 141</p>
                         </div>
                     </div>
                 </div>

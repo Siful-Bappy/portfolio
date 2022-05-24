@@ -17,9 +17,9 @@ const Home = () => {
                         <a href='https://www.linkedin.com/in/siful-bappy/' className='home__social-icon'>
                             <Linkedin />
                         </a>
-                        <a href='https://dribbble.com/Abdulkhamidov' className='home__social-icon'>
+                        {/* <a href='https://dribbble.com/Abdulkhamidov' className='home__social-icon'>
                             <Drbl />
-                        </a>
+                        </a> */}
                         <a href='https://www.instagram.com/sifulbappy1/' className='home__social-icon'>
                             <Instragram style={{ width: "20px", height:"20px" }} />
                         </a>

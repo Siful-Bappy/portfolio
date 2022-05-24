@@ -855,13 +855,13 @@ img {
   }
   .project__bg {
     /* background: none; */
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     border-radius: 1rem;
     padding: 0;
   }
   .project__img {
-    width: 300px;
+    width: 450px;
     height: 300px;
     margin: 0;
   }
@@ -869,8 +869,11 @@ img {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
     margin: 0;
+  }
+  .project__img_end{
+    justify-content: flex-end;
   }
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
