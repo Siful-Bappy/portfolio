@@ -24,11 +24,9 @@ const Header = () => {
     }
 
     return (
-
-
         <Container className='header scroll-header' id='header' active={active} >
             <nav className='nav container' >
-                <a href='#home' className='nav__logo'>Akbarjon</a>
+                <a href='#home' className='nav__logo'>Bappy</a>
                 <div className='nav__menu' id='nav-menu' >
                     <ul className='nav__list grid'>
                         <li className='nav__item'>
@@ -47,7 +45,7 @@ const Header = () => {
                         </li>
                         <li className='nav__item'>
                             <a href='#service' className='nav__link' onClick={linkAction}>
-                                <Service className="navIcon"></Service> service
+                                <Service className="navIcon"></Service> services
                             </a>
                         </li>
                         <li className='nav__item'>

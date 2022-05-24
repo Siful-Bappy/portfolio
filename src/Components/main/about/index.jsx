@@ -6,7 +6,7 @@ const About = () => {
     return (
         <Container className='section' id='about'>
             <h2 className='section-title'>About me</h2>
-            <span className='section-subtitle'>My Introduction</span>
+            <span className='section-subtitle'>Introduction</span>
             <div className='about__container container grid'>
                 <div className='about__image'>
                     {/* <img src='./myPhoto.png' alt="myphoto" className='myPhoto' /> */}
@@ -23,11 +23,11 @@ const About = () => {
                     </p>
                     <div className='about__info'>
                         <div>
-                            <span className='about__info-title'>03+</span>
+                            <span className='about__info-title'>02+</span>
                             <span className='about__info-name'>IT Academy <br />Graduates</span>
                         </div>
                         <div>
-                            <span className='about__info-title'>02+</span>
+                            <span className='about__info-title'>03+</span>
                             <span className='about__info-name'>Team <br /> Work</span>
                         </div>
                         <div>

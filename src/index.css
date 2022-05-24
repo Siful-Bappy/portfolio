@@ -155,7 +155,7 @@ img {
 }
 .home__social-icon {
   font-size: 1.25rem;
-  color: var(--first-color);
+  color: var(--first-c12olor);
 }
 .home__social-icon:hover {
   color: var(--first-color-alt);

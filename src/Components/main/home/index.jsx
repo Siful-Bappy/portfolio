@@ -20,6 +20,9 @@ const Home = () => {
                         <a href='https://dribbble.com/Abdulkhamidov' className='home__social-icon'>
                             <Drbl />
                         </a>
+                        <a href='https://www.instagram.com/sifulbappy1/' className='home__social-icon'>
+                            <Instragram style={{ width: "20px", height:"20px" }} />
+                        </a>
                         
                         <a href='https://github.com/Siful-Bappy' className='home__social-icon'>
                             <Git style={{ width: "20px" }} />
@@ -44,7 +47,7 @@ const Home = () => {
                     </div>
 
                     <div className='home__data'>
-                        <h1 className='home__title'>Hi, I am Akbarjon</h1>
+                        <h1 className='home__title'>Hello, I am Bappy</h1>
                         <h3 className='home__subtitle'>Front End Developer</h3>
                         <p className='home__description'> High level in web design and development knowledge, producing quality work.</p>
                         <a href='#contact' className='button button--flex'>Contact Me
