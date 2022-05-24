@@ -9,7 +9,7 @@ const Qualifications = () => {
     return (
         <Container className='qualification section' active={active}>
             <h2 className='section-title'>Qualification</h2>
-            <span className='section-subtitle'>My personal journey</span>
+            <span className='section-subtitle'>My Journey</span>
             <div className='qualification__container container'>
                 <div className='qualification__tabs'>
                     <div className='qualification__button button--flex' onClick={() => setActive(true)} style={{ cursor: "pointer" }}>
@@ -31,7 +31,7 @@ const Qualifications = () => {
                                 <span className='qualification-subtitle'>Gachon University</span>
                                 <div className='qualification__calendar' >
                                     <Calendar style={{ width: "1rem", color: "grey" }} />
-                                    2021-2024
+                                    2020-2023
                                 </div>
                             </div>
                             <div>
@@ -48,21 +48,23 @@ const Qualifications = () => {
                                 <span className='qualification__line'></span>
                             </div>
                             <div>
-                                <h3 className='qualification-title'>Web Development</h3>
-                                <span className='qualification-subtitle'>Web Brain IT Academy</span>
+                                <h3 className='qualification-title'>Web Development & Design</h3>
+                                <span className='qualification-subtitle'>Programming Hero Institute</span>
                                 <div className='qualification__calendar' >
                                     <Calendar style={{ width: "1rem", color: "grey" }} />
-                                    2021
+                                    2022
                                 </div>
                             </div>
 
                         </div>
-
-
+                        {/* Web Design
+                        Smart Programming Institute
+                        Web Development & Design
+                        Programming Hero Institute */}
                         <div className='qualification__data'>
                             <div>
-                                <h3 className='qualification-title'>Web Design</h3>
-                                <span className='qualification-subtitle'>Ali Tech IT Academy</span>
+                                <h3 className='qualification-title'>Web Development</h3>
+                                <span className='qualification-subtitle'>Smart Programming Institute</span>
                                 <div className='qualification__calendar' >
                                     <Calendar style={{ width: "1rem", color: "grey" }} />
                                     2021
@@ -83,10 +85,10 @@ const Qualifications = () => {
                         <div className='qualification__data'>
                             <div>
                                 <h3 className='qualification-title'>Team Work</h3>
-                                <span className='qualification-subtitle'>Web Brain IT Academy</span>
+                                <span className='qualification-subtitle'>Programming Hero Institute</span>
                                 <div className='qualification__calendar' >
                                     <Calendar style={{ width: "1rem", color: "grey" }} />
-                                    2021
+                                    2022
                                 </div>
                             </div>
                             <div>
@@ -104,7 +106,7 @@ const Qualifications = () => {
                             </div>
                             <div>
                                 <h3 className='qualification-title'>Team Work</h3>
-                                <span className='qualification-subtitle'>Ali Tech IT Academy</span>
+                                <span className='qualification-subtitle'>Smart Programming Institute</span>
                                 <div className='qualification__calendar' >
                                     <Calendar style={{ width: "1rem", color: "grey" }} />
                                     2021
