@@ -25,10 +25,10 @@ const Portfolio = () => {
             <Swiper cssMode={true} navigation={true} pagination={true} mousewheel={true} keyboard={true} className=' portfolio__container container mySwiper'>
                 {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 1>>>>>>>>>>>>>>> */}
                 <SwiperSlide className='portfolio__content grid'>
-                    <img src='./al_quran.png' alt='imgae' className='portfolio__img' />
+                    <img src='./doctors.JPG' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
-                        <h3 className='portfolio__title'>Al_Quran</h3>
-                        <p className='portfolio__description'>Demo of Al_Quran lets the users read, listen and understand the the meaning of Quran Holy book. </p>
+                        <h3 className='portfolio__title'>Doctors Portal</h3>
+                        <p className='portfolio__description'>Doctors Portal is kind of organize web application for take appiontment with doctors availablity according to date. Here its porssible to check the appionment detail in dashborad with high security like JWT & payment method </p>
                         <a href='https://alquran-demo.netlify.app/' className='button button--flex button--small portfolio__button'>
                             Demo
                             <Arrow className=" button__icon"></Arrow>
@@ -36,11 +36,11 @@ const Portfolio = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='portfolio__content grid'>
-                    <img src='./Maxsulotlar.png' alt='imgae' className='portfolio__img' />
+                    <img src='./emaJohn.JPG' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
-                        <h3 className='portfolio__title'>Modern Website</h3>
-                        <p className='portfolio__description'>Website for fast food delivery with amazing GUI and good functionality for the end-users</p>
-                        <a href='https://fastfoodakbarjon.netlify.app/' className='button button--flex button--small portfolio__button'>
+                        <h3 className='portfolio__title'>Ema John</h3>
+                        <p className='portfolio__description'>eCommerce website where consumer can order their porducts, see in the dashbord what they order with increase & decrease option</p>
+                        <a href='https://ema-johon-project-7e9e0.web.app/' className='button button--flex button--small portfolio__button'>
                             Demo
                             <Arrow className=" button__icon"></Arrow>
                         </a>
@@ -50,26 +50,25 @@ const Portfolio = () => {
                 {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 2>>>>>>>>>>>>>>> */}
 
                 <SwiperSlide className='portfolio__content grid'>
-                    <img src='./todo.png' alt='imgae' className='portfolio__img' />
+                    <img src='./carservice.JPG' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
-                        <h3 className='portfolio__title'>Microsoft todo</h3>
-                        <p className='portfolio__description'>Microsoft to do app is one of the most famous apps in terms of its functionality and brand design. API is not deployed yet so you can only see the source code!</p>
-                        <a href='https://github.com/akbarjon2000/MicrosoftTodo' className='button button--flex button--small portfolio__button'>
-                            Git Hub
+                        <h3 className='portfolio__title'>Genius Car Service</h3>
+                        <p className='portfolio__description'>In the website people can search car service and according to their choose they can hire mechanic</p>
+                        <a href='https://genius-car-services-proj-1d320.web.app/' className='button button--flex button--small portfolio__button'>
+                            Demo
                             <Arrow className=" button__icon"></Arrow>
                         </a>
                     </div>
                 </SwiperSlide>
 
-
                 {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 3>>>>>>>>>>>>>>> */}
 
                 <SwiperSlide className='portfolio__content grid'>
-                    <img src='./wallet.png' alt='imgae' className='portfolio__img' />
+                    <img src='./eliteplus.jpg' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
-                        <h3 className='portfolio__title'>Personal Wallet</h3>
-                        <p className='portfolio__description'>HTML CSS JavaScript web site for controlling personal wallets easily.</p>
-                        <a href='https://mywalletproject.netlify.app/' className='button button--flex button--small portfolio__button'>
+                        <h3 className='portfolio__title'>Elite Plus Export Import</h3>
+                        <p className='portfolio__description'>Export Import website by using wordPress with custom html and css. </p>
+                        <a href='http://eliteplusexportimport.com/' className='button button--flex button--small portfolio__button'>
 
                             Demo
                             <Arrow className=" button__icon"></Arrow>
