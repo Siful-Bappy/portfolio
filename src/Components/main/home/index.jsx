@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "./style";
 import { ReactComponent as Linkedin } from "../../../assets/icons/link.svg";
-import { ReactComponent as Drbl } from "../../../assets/icons/dribble.svg";
 import { ReactComponent as Instragram } from "../../../assets/icons/instagram.svg";
 import { ReactComponent as Git } from "../../../assets/icons/git.svg";
 import { ReactComponent as Send } from "../../../assets/icons/send.svg";
