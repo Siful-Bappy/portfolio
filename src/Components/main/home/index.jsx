@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from './style'
 import { ReactComponent as Linkedin } from "../../../assets/icons/link.svg"
 import { ReactComponent as Drbl } from "../../../assets/icons/dribble.svg"
+import { ReactComponent as Instragram } from "../../../assets/icons/instagram.svg"
 import { ReactComponent as Git } from "../../../assets/icons/git.svg"
 import { ReactComponent as Send } from "../../../assets/icons/send.svg"
 import { ReactComponent as Mouse } from "../../../assets/icons/mouse.svg"
@@ -13,13 +14,14 @@ const Home = () => {
             <div className='home__container container grid' style={{ width: "100% !important" }}>
                 <div className='home__content grid'>
                     <div className='home__social'>
-                        <a href='https://www.linkedin.com/in/akbarjon-abdulkhamidov-4181a2225/' className='home__social-icon'>
+                        <a href='https://www.linkedin.com/in/siful-bappy/' className='home__social-icon'>
                             <Linkedin />
                         </a>
                         <a href='https://dribbble.com/Abdulkhamidov' className='home__social-icon'>
                             <Drbl />
                         </a>
-                        <a href='https://github.com/akbarjon2000' className='home__social-icon'>
+                        
+                        <a href='https://github.com/Siful-Bappy' className='home__social-icon'>
                             <Git style={{ width: "20px" }} />
                         </a>
                     </div>
