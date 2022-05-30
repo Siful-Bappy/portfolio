@@ -57,7 +57,8 @@ const Home = () => {
         -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                 />
                 <image
-                  y="-10"
+                  y="-1"
+                  x="1"
                   className="home__blob-img"
                   xlinkHref="./photo1.png"
                 />

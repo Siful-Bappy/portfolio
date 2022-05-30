@@ -24,17 +24,20 @@ const Portfolio = () => {
             <span className='section-subtitle'>Most recent work</span>
             <Swiper cssMode={true} navigation={true} pagination={true} mousewheel={true} keyboard={true} className=' portfolio__container container mySwiper'>
                 {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 1>>>>>>>>>>>>>>> */}
+                
+
                 <SwiperSlide className='portfolio__content grid'>
                     <img src='./doctors.JPG' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
                         <h3 className='portfolio__title'>Doctors Portal</h3>
-                        <p className='portfolio__description'>Doctors Portal is kind of organize web application for take appiontment with doctors availablity according to date. Here its porssible to check the appionment detail in dashborad with high security like JWT & payment method </p>
-                        <a href='https://alquran-demo.netlify.app/' className='button button--flex button--small portfolio__button'>
-                            Demo
+                        <p className='portfolio__description'>Doctors Portal is kind of organize web application for take appiontment with doctors availablity according to date. Here its porssible to check the appionment detail in dashborad with high security like JWT & payment method</p>
+                        <a href='https://github.com/Siful-Bappy/Doctors-Protal-client-side' className='button button--flex button--small portfolio__button'>
+                            Git Hub
                             <Arrow className=" button__icon"></Arrow>
                         </a>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide className='portfolio__content grid'>
                     <img src='./emaJohn.JPG' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
